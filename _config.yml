@@ -1,0 +1,32 @@
+# Site settings
+title: Company Reputation Tracker
+description: Track company mentions and sentiment analysis
+baseurl: "" # Empty for root repository
+url: "" # Will be set by GitHub Pages
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# GitHub Pages settings
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-remote-theme
+
+# Exclude from processing
+exclude:
+  - .github/
+  - __pycache__/
+  - api_client.py
+  - company_tracker.db
+  - dashboard.py
+  - db.py
+  - logger.py
+  - logs/
+  - requirements.txt
+  - runner.py
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
