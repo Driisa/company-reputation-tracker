@@ -1,0 +1,78 @@
+name: Company Reputation Tracker
+on:
+  # Runs on schedule
+  schedule:
+    - cron: '30 7 * **'  # 6:00 PM UTC daily
+
+  # Allows manual triggering
+  workflow_dispatch:
+# Sets permissions of the GITHUB_TOKEN
+permissions:
+  contents: write  # For writing to repository
+  pages: write  # For GitHub Pages
+  id-token: write  # Required for GitHub Pages
+# Allow only one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+jobs:
+  # First job: Update the data
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3.5.3
+
+name: Set up Python
+uses: actions/setup-python@v4.7.1
+with:
+  python-version: '3.10'
+
+name: Install dependencies
+run: |
+  python -m pip install --upgrade pip
+  pip install -r requirements.txt
+
+name: Run data processing
+env:
+  OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+  NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+run: |
+  # Initialize directories and database
+  mkdir -p logs assets/data
+  python -c "from db import init_db; init_db()"
+
+  # Process data
+  python runner.py --all --limit 20 || python runner.py --generate-only
+
+  # Generate static files
+  python generate_static_data.py
+
+  # Verify files were generated
+  ls -la assets/data/
+  if [ -f "assets/data/dashboard_data.json" ]; then
+    echo "✅ Static data generated successfully"
+  else
+    echo "❌ Failed to generate static data"
+    exit 1
+  fi
+
+name: Commit changes run: | git config --local user.email "github-actions@github.com" git config --local user.name "GitHub Actions" git add assets/data/.json company_tracker.db logs/.log || true git diff --staged --quiet || git commit -m "Update dashboard data [skip ci]" git push || echo "No changes to push or push failed" # Second job: Build and deploy the static site build-and-deploy: needs: update-data runs-on: ubuntu-latest environment: name: github-pages url: ${{ steps.deployment.outputs.page_url }} steps:
+name: Checkout
+uses: actions/checkout@v3.5.3
+
+name: Setup Pages
+uses: actions/configure-pages@v4
+
+name: Build with Jekyll uses: actions/jekyll-build-pages@v1 with: source: ./ destination: ./_site
+name: Upload artifact
+# Use the Pages specific artifact upload action
+uses: actions/upload-pages-artifact@v3
+with:
+  path: ./_site
+
+name: Deploy to GitHub Pages
+id: deployment
+uses: actions/deploy-pages@v4
+
+i have problems that this is not running
