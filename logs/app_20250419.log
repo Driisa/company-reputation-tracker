@@ -1,0 +1,670 @@
+2025-04-19 07:14:01 [INFO] [logger.py] logger.wrapper: Starting init_db in db.py
+2025-04-19 07:14:01 [INFO] [logger.py] logger.log_info: Database initialized successfully.
+2025-04-19 07:14:01 [INFO] [logger.py] logger.wrapper: Completed init_db in db.py successfully
+2025-04-19 07:14:02 [INFO] [logger.py] logger.log_startup: === Company Reputation Tracker Started ===
+2025-04-19 07:14:02 [INFO] [logger.py] logger.log_startup: Log file: /home/runner/work/company-reputation-tracker/company-reputation-tracker/logs/app_20250419.log
+2025-04-19 07:14:02 [INFO] [logger.py] logger.wrapper: Starting init_db in db.py
+2025-04-19 07:14:02 [INFO] [logger.py] logger.log_info: Database initialized successfully.
+2025-04-19 07:14:02 [INFO] [logger.py] logger.wrapper: Completed init_db in db.py successfully
+2025-04-19 07:14:02 [INFO] [logger.py] logger.wrapper: Starting get_companies in db.py
+2025-04-19 07:14:02 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:14:02 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:14:02 [INFO] [logger.py] logger.log_info: Retrieved 3 companies from database
+2025-04-19 07:14:02 [INFO] [logger.py] logger.wrapper: Completed get_companies in db.py successfully
+2025-04-19 07:14:02 [INFO] [logger.py] logger.wrapper: Starting process_company in runner.py
+2025-04-19 07:14:02 [INFO] [logger.py] logger.wrapper: Starting get_company in db.py
+2025-04-19 07:14:02 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:14:02 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:14:02 [INFO] [logger.py] logger.log_info: Retrieved company: Tesla (ID: 1)
+2025-04-19 07:14:02 [INFO] [logger.py] logger.wrapper: Completed get_company in db.py successfully
+2025-04-19 07:14:02 [INFO] [logger.py] logger.log_info: Processing company: Tesla (ID: 1)
+2025-04-19 07:14:02 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:14:02 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:14:02 [INFO] [logger.py] logger.wrapper: Starting fetch_mentions in api_client.py
+2025-04-19 07:14:03 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:10 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://erickimphotography.com/blog/2025/04/18/respect-the-og/ (375 chars)
+2025-04-19 07:14:10 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:10 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:12 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etfdailynews.com/2025/04/18/tesla-nasdaqtsla-shares-down-0-2-after-analyst-downgrade/ (8838 chars)
+2025-04-19 07:14:12 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:12 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:13 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etfdailynews.com/2025/04/18/tesla-nasdaqtsla-versus-mercedes-benz-group-otcmktsmbgyy-critical-review/ (7460 chars)
+2025-04-19 07:14:13 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:13 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:15 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etfdailynews.com/2025/04/18/automotive-stocks-to-watch-today-april-16th/ (6833 chars)
+2025-04-19 07:14:15 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:15 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:15 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etfdailynews.com/2025/04/18/zacks-research-estimates-teslas-q1-earnings-nasdaqtsla/ (8807 chars)
+2025-04-19 07:14:15 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:15 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:16 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://freerepublic.com/focus/f-chat/4311729/posts (12952 chars)
+2025-04-19 07:14:16 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:16 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:18 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://bitcoinist.com/wall-street-winks-at-dogecoin-its-more-than-a-meme/ (9489 chars)
+2025-04-19 07:14:18 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:18 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:19 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://freerepublic.com/focus/f-news/4311724/posts (9004 chars)
+2025-04-19 07:14:19 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:19 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:20 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://biztoc.com/x/6d00a5275246f98b (1186 chars)
+2025-04-19 07:14:20 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:20 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:21 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://nypost.com/2025/04/17/media/dc-matchmaker-says-political-polarization-on-steroids-as-liberals-refuse-to-date-trump-voters-tesla-owners/ (4838 chars)
+2025-04-19 07:14:21 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:21 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:22 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://biztoc.com/x/4bb933eba8e1ed25 (1212 chars)
+2025-04-19 07:14:22 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:22 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:24 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://biztoc.com/x/78b80c691785926a (1016 chars)
+2025-04-19 07:14:24 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:24 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:24 [ERROR] [logger.py] logger.log_error: Error extracting content from https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_8dbf52bb-23af-42a6-bc2a-501370699773: 401 Client Error: Unauthorized for url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_8dbf52bb-23af-42a6-bc2a-501370699773
+Traceback (most recent call last):
+  File "/home/runner/work/company-reputation-tracker/company-reputation-tracker/api_client.py", line 182, in fetch_article_content
+    response.raise_for_status()
+  File "/opt/hostedtoolcache/Python/3.10.17/x64/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_8dbf52bb-23af-42a6-bc2a-501370699773
+2025-04-19 07:14:24 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:24 [INFO] [logger.py] logger.log_info: Using NewsAPI content as fallback for https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_8dbf52bb-23af-42a6-bc2a-501370699773
+2025-04-19 07:14:24 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:26 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://economictimes.indiatimes.com/news/international/global-trends/tesla-speeds-up-odometers-to-avoid-warranty-repairs-us-lawsuit-claims/articleshow/120397283.cms (7679 chars)
+2025-04-19 07:14:26 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:26 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:28 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://biztoc.com/x/b0c99b92deda3d3b (806 chars)
+2025-04-19 07:14:28 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:28 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:28 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://biztoc.com/x/1616a55558cf1b23 (825 chars)
+2025-04-19 07:14:28 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:28 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:30 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://biztoc.com/x/dea641489f01acb6 (812 chars)
+2025-04-19 07:14:30 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:30 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:31 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://biztoc.com/x/f5f5d64fd075f09a (1066 chars)
+2025-04-19 07:14:31 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:31 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:33 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://finance.yahoo.com/news/paid-1-federal-income-taxes-013116616.html (5601 chars)
+2025-04-19 07:14:33 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:33 [INFO] [logger.py] logger.log_info: Found 19 mentions for Tesla (limited to 20)
+2025-04-19 07:14:33 [INFO] [logger.py] logger.wrapper: Completed fetch_mentions in api_client.py successfully
+2025-04-19 07:14:33 [INFO] [logger.py] logger.log_info: Found 19 mentions for Tesla
+2025-04-19 07:14:33 [INFO] [logger.py] logger.wrapper: Starting analyze_mentions in api_client.py
+2025-04-19 07:14:33 [INFO] [logger.py] logger.log_info: Analyzing sentiment for 19 mentions
+2025-04-19 07:14:33 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:33 [INFO] [logger.py] logger.log_info: Initializing OpenAI for sentiment analysis...
+2025-04-19 07:14:33 [INFO] [logger.py] logger.log_info: OpenAI initialized successfully!
+2025-04-19 07:14:33 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:33 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:33 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:33 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:33 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:33 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:33 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:33 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:34 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:34 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:34 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:34 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:35 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:35 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:35 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:35 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:35 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:35 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:35 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:35 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:36 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:36 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:36 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:36 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:36 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:36 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:36 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:36 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:37 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:37 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:37 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:37 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:37 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:37 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:37 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:37 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:38 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:38 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:38 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:38 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:38 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:38 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:38 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:38 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:39 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:39 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:39 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:39 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:39 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:39 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:39 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:39 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:40 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:40 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:40 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:40 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:40 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:40 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:40 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:40 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:41 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:41 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:41 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:41 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:42 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:42 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:42 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:42 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:42 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:42 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:42 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:42 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Completed analyze_mentions in api_client.py successfully
+2025-04-19 07:14:43 [INFO] [logger.py] logger.log_info: Completed sentiment analysis for 19 mentions
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:14:43 [INFO] [logger.py] logger.log_info: Added 19 new mentions for company ID 1
+2025-04-19 07:14:43 [INFO] [logger.py] logger.log_info: Added 19 mentions to the database
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:14:43 [INFO] [logger.py] logger.log_info: Database changes for company Tesla have been committed
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_stats in db.py
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:14:43 [INFO] [logger.py] logger.log_info: Calculated sentiment stats for company ID 1: 7 positive, 38 neutral, 29 negative
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_stats in db.py successfully
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Completed process_company in runner.py successfully
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Starting process_company in runner.py
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Starting get_company in db.py
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:14:43 [INFO] [logger.py] logger.log_info: Retrieved company: Apple (ID: 2)
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Completed get_company in db.py successfully
+2025-04-19 07:14:43 [INFO] [logger.py] logger.log_info: Processing company: Apple (ID: 2)
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:14:43 [INFO] [logger.py] logger.wrapper: Starting fetch_mentions in api_client.py
+2025-04-19 07:14:44 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:44 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.thehindubusinessline.com/info-tech/motorola-eyes-no3-spot-in-indian-smartphones-market-by-2026/article69463763.ece (5186 chars)
+2025-04-19 07:14:44 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:44 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:46 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.npr.org/2025/04/18/1245530792/sound-science-fiddler-crab-drumming (4370 chars)
+2025-04-19 07:14:46 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:46 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:46 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.geeky-gadgets.com/ios-18-4-1-update-2/ (6495 chars)
+2025-04-19 07:14:46 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:46 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:50 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etfdailynews.com/2025/04/18/apple-inc-nasdaqaapl-is-aljian-capital-management-llcs-largest-position/ (8749 chars)
+2025-04-19 07:14:50 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:50 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:51 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etfdailynews.com/2025/04/18/apple-inc-nasdaqaapl-shares-sold-by-sunburst-financial-group-llc/ (8983 chars)
+2025-04-19 07:14:51 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:51 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:52 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etfdailynews.com/2025/04/18/life-planning-partners-inc-acquires-shares-of-186453-apple-inc-nasdaqaapl/ (9040 chars)
+2025-04-19 07:14:52 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:52 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:53 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etfdailynews.com/2025/04/18/manchester-financial-inc-decreases-stock-holdings-in-apple-inc-nasdaqaapl/ (9612 chars)
+2025-04-19 07:14:53 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:53 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:55 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etfdailynews.com/2025/04/18/paypay-securities-corp-trims-position-in-apple-inc-nasdaqaapl/ (9173 chars)
+2025-04-19 07:14:55 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:55 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:56 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etfdailynews.com/2025/04/18/mcrae-capital-management-inc-has-6-49-million-stock-holdings-in-apple-inc-nasdaqaapl/ (9222 chars)
+2025-04-19 07:14:56 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:56 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:57 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etfdailynews.com/2025/04/18/apple-inc-nasdaqaapl-is-pathway-financial-advisers-llcs-6th-largest-position/ (8812 chars)
+2025-04-19 07:14:57 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:57 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:14:59 [INFO] [logger.py] logger.log_info: Successfully extracted content from http://deadline.com/2025/04/canada-election-trump-51st-state-media-culture-battleground-1236369756/ (17099 chars)
+2025-04-19 07:14:59 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:14:59 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:00 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.insidehighered.com/opinion/views/2025/04/18/how-ai-challenges-notions-authorship-opinion (11971 chars)
+2025-04-19 07:15:00 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:00 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:03 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.phonearena.com/news/apple-seventh-straight-quarter-of-decline-in-china_id169600 (5869 chars)
+2025-04-19 07:15:03 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:03 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:04 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etfdailynews.com/2025/04/18/best-technology-stocks-to-follow-now-april-16th/ (11376 chars)
+2025-04-19 07:15:04 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:04 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:05 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.gadgets360.com/mobiles/news/apple-china-iphone-shipments-slide-nine-percent-first-quarter-8194055 (7683 chars)
+2025-04-19 07:15:05 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:05 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:07 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etfdailynews.com/2025/04/18/financial-analysis-fs-kkr-capital-nysefsk-vs-southpeak-interactive-otcmktssopk/ (7887 chars)
+2025-04-19 07:15:07 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:07 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:08 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://applech2.com/archives/20250418-anker-zolo-power-bank-10k-30w-usb-c-cable.html (4541 chars)
+2025-04-19 07:15:08 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:08 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:10 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etfdailynews.com/2025/04/18/wedbush-issues-negative-estimate-for-apple-earnings/ (8814 chars)
+2025-04-19 07:15:10 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:10 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:11 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://wccftech.com/tsmc-2nm-chip-prodiction-causes-iphone-18-price-hike/ (5091 chars)
+2025-04-19 07:15:11 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:11 [INFO] [logger.py] logger.log_info: Found 19 mentions for Apple (limited to 20)
+2025-04-19 07:15:11 [INFO] [logger.py] logger.wrapper: Completed fetch_mentions in api_client.py successfully
+2025-04-19 07:15:11 [INFO] [logger.py] logger.log_info: Found 19 mentions for Apple
+2025-04-19 07:15:11 [INFO] [logger.py] logger.wrapper: Starting analyze_mentions in api_client.py
+2025-04-19 07:15:11 [INFO] [logger.py] logger.log_info: Analyzing sentiment for 19 mentions
+2025-04-19 07:15:11 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:11 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:11 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:11 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:11 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:12 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:12 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:12 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:12 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:12 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:12 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:12 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:12 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:13 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:13 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:13 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:13 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:13 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:13 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:13 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:13 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:14 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:14 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:14 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:14 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:14 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:14 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:14 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:14 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:15 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:15 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:15 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:15 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:16 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:16 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:16 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:16 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:16 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:16 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:16 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:16 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:17 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:17 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:17 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:17 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:17 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:17 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:17 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:17 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:18 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:18 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:18 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:18 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:18 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:18 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:18 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:18 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:19 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:19 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:19 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:19 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:19 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:19 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:19 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:19 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:20 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:20 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:20 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:20 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:20 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:20 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:20 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:20 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:21 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:21 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:21 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:21 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Completed analyze_mentions in api_client.py successfully
+2025-04-19 07:15:22 [INFO] [logger.py] logger.log_info: Completed sentiment analysis for 19 mentions
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:15:22 [INFO] [logger.py] logger.log_info: Added 19 new mentions for company ID 2
+2025-04-19 07:15:22 [INFO] [logger.py] logger.log_info: Added 19 mentions to the database
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:15:22 [INFO] [logger.py] logger.log_info: Database changes for company Apple have been committed
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_stats in db.py
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:15:22 [INFO] [logger.py] logger.log_info: Calculated sentiment stats for company ID 2: 39 positive, 49 neutral, 24 negative
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_stats in db.py successfully
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Completed process_company in runner.py successfully
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Starting process_company in runner.py
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Starting get_company in db.py
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:15:22 [INFO] [logger.py] logger.log_info: Retrieved company: Amazon (ID: 3)
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Completed get_company in db.py successfully
+2025-04-19 07:15:22 [INFO] [logger.py] logger.log_info: Processing company: Amazon (ID: 3)
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Starting fetch_mentions in api_client.py
+2025-04-19 07:15:22 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:24 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://slickdeals.net/f/18260221-s-s-9-17-23-oz-seventh-generation-ultra-concentrated-laundry-detergent-free-clear-at-amazon?utm_source=rss&utm_content=ht&utm_medium=RSS2 (7871 chars)
+2025-04-19 07:15:24 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:24 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:26 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.patheos.com/blogs/adrianwarnock/2025/04/why-call-it-good-friday-only-because-of-the-resurrection/ (10856 chars)
+2025-04-19 07:15:26 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:26 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:26 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.43rumors.com/a-bit-of-everything-2200/ (2510 chars)
+2025-04-19 07:15:26 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:26 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:29 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://slickdeals.net/f/18255478-15-oz-progresso-italian-style-bread-crumbs-1-65-w-s-s-free-shipping-w-prime-or-on-35?utm_source=rss&utm_content=fp&utm_medium=RSS2 (10790 chars)
+2025-04-19 07:15:29 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:29 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:30 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.newser.com/story/367345/activists-call-for-3-day-spending-boycott-starting-now.html (3807 chars)
+2025-04-19 07:15:30 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:30 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:31 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.breitbart.com/politics/2025/04/18/blue-state-blues-trump-bets-he-can-succeed-where-obama-failed-on-iran-deal/ (6781 chars)
+2025-04-19 07:15:31 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:31 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:32 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.tmz.com/2025/04/18/camping-gear-deals-amazon/ (8067 chars)
+2025-04-19 07:15:32 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:32 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:34 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.npr.org/2025/04/18/1245530787/in-sinners-there-will-be-blood-booze-and-the-blues (2114 chars)
+2025-04-19 07:15:34 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:34 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:36 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://economictimes.indiatimes.com/news/international/global-trends/chinas-manufacturing-backbone-feels-trump-trade-war-pinch/articleshow/120402495.cms (8990 chars)
+2025-04-19 07:15:36 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:36 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:37 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.newsweek.com/there-mail-good-friday-usps-ups-fedex-hours-2052081 (84 chars)
+2025-04-19 07:15:37 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:37 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:38 [INFO] [logger.py] logger.log_info: Successfully extracted content from http://deadline.com/2025/04/canada-election-trump-51st-state-media-culture-battleground-1236369756/ (17042 chars)
+2025-04-19 07:15:38 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:38 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:42 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.stacksocial.com/sales/lifetime-access-for-courses-exams-labs-for-comptia-aws-comptia-aws-microsoft-more?aid= (4387 chars)
+2025-04-19 07:15:42 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:42 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:44 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.stacksocial.com/sales/lifetime-access-for-courses-exams-labs-for-comptia-aws-comptia-aws-microsoft-more?utm_campaign=feed&amp;utm_medium=RSS&amp;utm_source=androidguys&amp;aid= (4387 chars)
+2025-04-19 07:15:44 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:44 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:47 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.stacksocial.com/sales/lifetime-access-for-courses-exams-labs-for-comptia-aws-comptia-aws-microsoft-more?utm_source=&amp;utm_content=&amp;utm_medium=dealfeed&amp;utm_campaign=lifetime-access-for-courses-exams-labs-for-comptia-aws-comptia-aws-microsoft-more (4387 chars)
+2025-04-19 07:15:47 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:47 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:49 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.commonsensewithmoney.com/skip-hop-kids-bento-lunch-box-6-49/ (1622 chars)
+2025-04-19 07:15:49 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:49 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:50 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.amazon.de/-/en/Cleaner-Function-Navigation-Running-Self-Emptying/dp/B0DNJZGZMV (392 chars)
+2025-04-19 07:15:50 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:50 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:51 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.commonsensewithmoney.com/oh-places-youll-go-hardcover-book-7-83/ (1338 chars)
+2025-04-19 07:15:51 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:51 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:53 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://thedailywtf.com/articles/hot-dog (2739 chars)
+2025-04-19 07:15:53 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:53 [INFO] [logger.py] logger.wrapper: Starting fetch_article_content in api_client.py
+2025-04-19 07:15:54 [INFO] [logger.py] logger.log_info: Successfully extracted content from https://www.etnownews.com/entertainment/kesari-chapter-2-akshay-kumar-review-objection-overruled-this-ones-a-winner-r-madhavan-steals-courtroom-with-his-quiet-power-article-151446948 (8651 chars)
+2025-04-19 07:15:54 [INFO] [logger.py] logger.wrapper: Completed fetch_article_content in api_client.py successfully
+2025-04-19 07:15:54 [INFO] [logger.py] logger.log_info: Found 19 mentions for Amazon (limited to 20)
+2025-04-19 07:15:54 [INFO] [logger.py] logger.wrapper: Completed fetch_mentions in api_client.py successfully
+2025-04-19 07:15:54 [INFO] [logger.py] logger.log_info: Found 19 mentions for Amazon
+2025-04-19 07:15:54 [INFO] [logger.py] logger.wrapper: Starting analyze_mentions in api_client.py
+2025-04-19 07:15:54 [INFO] [logger.py] logger.log_info: Analyzing sentiment for 19 mentions
+2025-04-19 07:15:54 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:54 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:54 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:54 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:54 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:55 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:55 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:55 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:55 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:55 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:55 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:55 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:55 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:56 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:56 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:56 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:56 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:57 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:57 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:57 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:57 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:57 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:57 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:57 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:57 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:58 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:58 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:58 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:58 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:58 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:58 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:58 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:58 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:59 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:59 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:59 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:59 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:15:59 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:15:59 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:15:59 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:15:59 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:16:00 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:16:00 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:16:00 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:16:00 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:16:00 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:16:00 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:16:00 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:16:00 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:16:01 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:16:01 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:16:01 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:16:01 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:16:01 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:16:01 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:16:01 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:16:01 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:16:02 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:16:02 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:16:02 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:16:02 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:16:02 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:16:02 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:16:02 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:16:02 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:16:03 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:16:03 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:16:03 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:16:03 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:16:04 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:16:04 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:16:04 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:16:04 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:16:04 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:16:04 [INFO] [logger.py] logger.wrapper: Starting analyze_sentiment in api_client.py
+2025-04-19 07:16:04 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_analyzer in api_client.py
+2025-04-19 07:16:04 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_analyzer in api_client.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed analyze_sentiment in api_client.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed analyze_mentions in api_client.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Completed sentiment analysis for 19 mentions
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Added 19 new mentions for company ID 3
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Added 19 mentions to the database
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Database changes for company Amazon have been committed
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_stats in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Calculated sentiment stats for company ID 3: 40 positive, 36 neutral, 48 negative
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_stats in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed process_company in runner.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: All database changes have been committed
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Pipeline completed. Processed 3 companies, added 57 new mentions.
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Generating static data files...
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting init_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Database initialized successfully.
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed init_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting init_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Database initialized successfully.
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed init_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_companies in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Retrieved 3 companies from database
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_companies in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Generated companies.json with 3 companies
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_company in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Retrieved company: Tesla (ID: 1)
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_company in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_stats in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Calculated sentiment stats for company ID 1: 7 positive, 38 neutral, 29 negative
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_stats in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_mentions in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Retrieved 74 mentions for company ID 1
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_mentions in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_timeline_data in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_timeline_data in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Generated data for company: Tesla (ID: 1)
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_company in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Retrieved company: Apple (ID: 2)
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_company in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_stats in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Calculated sentiment stats for company ID 2: 39 positive, 49 neutral, 24 negative
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_stats in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_mentions in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Retrieved 112 mentions for company ID 2
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_mentions in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_timeline_data in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_timeline_data in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Generated data for company: Apple (ID: 2)
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_company in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Retrieved company: Amazon (ID: 3)
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_company in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_stats in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Calculated sentiment stats for company ID 3: 40 positive, 36 neutral, 48 negative
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_stats in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_mentions in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Retrieved 124 mentions for company ID 3
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_mentions in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_timeline_data in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_timeline_data in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Generated data for company: Amazon (ID: 3)
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Generated dashboard_data.json with default company: Tesla
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Static data generation completed
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_shutdown: === Company Reputation Tracker Shutdown ===
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting init_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Database initialized successfully.
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed init_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting init_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Database initialized successfully.
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed init_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_companies in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Retrieved 3 companies from database
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_companies in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Generated companies.json with 3 companies
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_company in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Retrieved company: Tesla (ID: 1)
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_company in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_stats in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Calculated sentiment stats for company ID 1: 7 positive, 38 neutral, 29 negative
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_stats in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_mentions in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Retrieved 74 mentions for company ID 1
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_mentions in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_timeline_data in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_timeline_data in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Generated data for company: Tesla (ID: 1)
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_company in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Retrieved company: Apple (ID: 2)
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_company in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_stats in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Calculated sentiment stats for company ID 2: 39 positive, 49 neutral, 24 negative
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_stats in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_mentions in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Retrieved 112 mentions for company ID 2
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_mentions in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_timeline_data in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_timeline_data in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Generated data for company: Apple (ID: 2)
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_company in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Retrieved company: Amazon (ID: 3)
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_company in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_stats in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Calculated sentiment stats for company ID 3: 40 positive, 36 neutral, 48 negative
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_stats in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_mentions in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Retrieved 124 mentions for company ID 3
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_mentions in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_sentiment_timeline_data in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Starting get_db in db.py
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_db in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.wrapper: Completed get_sentiment_timeline_data in db.py successfully
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Generated data for company: Amazon (ID: 3)
+2025-04-19 07:16:05 [INFO] [logger.py] logger.log_info: Generated dashboard_data.json with default company: Tesla
